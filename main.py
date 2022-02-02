@@ -3,7 +3,7 @@ def main():
     print("just doing other work here")
     user_response = int(input("what is your age?"))
     half_age = user_response/2
-    #this a change
+    #this a change sw
     print(f"{half_age} is half your age")
 
 main()
