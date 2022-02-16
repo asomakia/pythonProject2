@@ -12,7 +12,7 @@ def main():
 
     all_lines = rectangleFile.readlines()
 
-    arcade.start_render(0
+    arcade.start_render()
     for rectangle in all_lines:
         rec_data = rectangle.split(",")
         center_x = int(rec_data[0])
